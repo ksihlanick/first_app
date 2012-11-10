@@ -14,3 +14,12 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+#ignore the default SQLite database.
+/db/*.sqlite3
+#ignore other unneeded files
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
